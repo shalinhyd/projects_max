@@ -1,0 +1,10 @@
+this is line one,
+this is line two,
+this is line three,
+this is line four,
+
+commands:
+to remove comma in each line
+tr  ',' '\t' < sample.txt > temp.txt; mv temp.txt sample.txt
+next commands:
+head -n 4 sample.txt
